@@ -5,7 +5,7 @@
 % noel.pelland@noaa.gov
 
 % THIS CODE USES DATA AVAILABLE FROM THE UW RESEARCHWORKS ARCHIVE AT:
-% http://
+% http://hdl.handle.net/1773/41656
 
 % Pelland/Eriksen/Cronin [2016] refers to: http://dx.doi.org/10.1002/2016JC011920
 % Pelland [2015] refers to: http://hdl.handle.net/1773/35285

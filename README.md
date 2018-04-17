@@ -14,7 +14,7 @@ The script should use only base functions available in R2017a with the exception
 suncycle.m is used to determine whether chlorophyll samples are during day or night before averaging.  If suncycle.m is not available, you will need to find a different function to determine local sunrise and sunset on line 544, or modify lines 544-549 such that chlorophyll samples are considered regardless of whether they are during day or night.  If you choose to do the latter, the figure based on these samples will not exactly match the provided example figure, fig_1_surveys_III_recreate.pdf, though it will be very similar.
 
 To use this script, do the following:
-1) Clone or download the script OSP_SG_surveys_bin_data_load_and_plot.m from this repository.
+1) Clone or download the script OSP_SG_surveys_bin_data_load_and_plot.m from this repository.  If necessary, download suncycle.m from the above address and place it in the same directory, or somewhere in your MATLAB search path.
 2) Download the files
   SG_at_osp_bin_avg_data.nc
   SG_at_osp_DAC_data.nc
@@ -23,6 +23,6 @@ To use this script, do the following:
 3) Change lines 20 and 23 of your version of OSP_SG_surveys_bin_data_load_and_plot.m to reflect the directories on your machine where the above three files are located.
 4) Run your version of OSP_SG_surveys_bin_data_load_and_plot.m.
 
-Note that the script was written to be run in cell mode -- that is, to run each cell of code sequentially.  Cells of code are delimited by double-percent signs (%%).  In MATLAB, the current cell is the cell in which your cursor is placed in the editor window.  To run that cell, select "Run Section" or "Run and Advance" in the editor window.  The latter will execute the code in the current cell and move the cursor to the top of the next cell.  Start with the first two cells which define the directories and load the data.
+Note that the script was written to be run in cell mode in MATLAB -- that is, to run each cell of code sequentially.  Cells of code are delimited by double-percent signs (%%).  In MATLAB, the current cell is the cell in which your cursor is placed in the editor window.  To run that cell, select "Run Section" or "Run and Advance" in the editor window.  The latter will execute the code in the current cell and move the cursor to the top of the next cell.  Start with the first two cells which define the directories and load the data.
 
 If you choose not to use cell mode, remove or comment out the "close all" statements at the beginning of each cell, because otherwise the first five figures will be closed before the script finishes executing, and only the final figure will be shown on screen.  In the initial commit, these statements are on lines 88, 159, 262, 357, 405, and 511.

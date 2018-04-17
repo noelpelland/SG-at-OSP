@@ -7,7 +7,7 @@ noel.pelland@noaa.gov
 
 The script OSP_SG_surveys_bin_data_load_and_plot.m is intended as an introduction of how to load and plot Seaglider profiling and depth-average current data from surveys at Ocean Station Papa, available from the University of Washington ResearchWorks archive at: http://hdl.handle.net/1773/41656.
 
-If OSP_SG_surveys_bin_data_load_and_plot.m is run successfully, it will generate six figures which are reproductions from research articles about these Seaglider surveys that have recently been published or submitted.  The DOIs for the published article, and the title of the submitted article, are included in the first few lines of this script.
+If OSP_SG_surveys_bin_data_load_and_plot.m is run successfully, it will generate six figures which are reproductions from research articles about these Seaglider surveys that have recently been published or submitted.  If printed as PDFs, the figures should match those provided in the folder example_figures_SG_surveys.  The DOIs for the published article, and the title of the submitted article, are included in the first few lines of this script.
 
 The script was written in MATLAB R2017a.
 The script should use only base functions available in R2017a with the exception of suncycle.m which is available at: http://mooring.ucsd.edu/software/matlab/doc/toolbox/geo/suncycle.html.

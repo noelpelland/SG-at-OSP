@@ -9,7 +9,7 @@ The script OSP_SG_surveys_bin_data_load_and_plot.m is intended as an introductio
 
 If OSP_SG_surveys_bin_data_load_and_plot.m is run successfully, it will generate six figures which are reproductions from research articles about these Seaglider surveys that have recently been published or submitted.  The DOIs for the published article, and the title of the submitted article, are included in the first few lines of this script.
 
-The script was writted in MATLAB R2017a.
+The script was written in MATLAB R2017a.
 The script should use only base functions available in R2017a with the exception of suncycle.m which is available at: http://mooring.ucsd.edu/software/matlab/doc/toolbox/geo/suncycle.html.
 suncycle.m is used to determine whether chlorophyll samples are during day or night before averaging.  If suncycle.m is not available, you will need to find a different function to determine local sunrise and sunset on line 544, or modify lines 544-549 such that chlorophyll samples are considered regardless of whether they are during day or night.  If you choose to do the latter, the figure based on these samples will not exactly match the provided example figure, fig_1_surveys_III_recreate.pdf, though it will be very similar.
 
